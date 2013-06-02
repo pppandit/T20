@@ -1,0 +1,5 @@
+Steps:
+1. Convert the entire file into 2 parts Inn1 and Inn2 as shown in the files 597998_Inn1.json and 597998_Inn2.json by deleting the appropriate parts from the whole match file.
+2. Execute the commands :
+mongoimport --collection match1 --file 597998_Inn1.json --db ipl_db --type json --jsonArray
+mongoimport --collection match1 --file 597998_Inn2.json --db ipl_db --type json --jsonArray
